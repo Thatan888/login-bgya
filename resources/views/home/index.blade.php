@@ -12,5 +12,7 @@
         <h1>Homepage</h1>
         <p class="lead">Your viewing the home page. Please login to view the restricted data.</p>
         @endguest
+
+        @yield('content')
     </div>
 @endsection

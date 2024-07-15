@@ -54,7 +54,7 @@
         </div>
 
         <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
-        <a href="{{ route('home.index') }}" class="w-100 btn btn-lg mt-2 btn-secondary">Back</a>
+        <a href="{{ route('home.app') }}" class="w-100 btn btn-lg mt-2 btn-secondary">Back</a>
         
         @include('auth.partials.copy')
     </form>
